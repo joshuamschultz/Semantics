@@ -11,5 +11,11 @@ class TextResource
   attr_accessor :headings_1
   attr_accessor :headings_2
   attr_accessor :headings_3
+  attr_accessor :sentence_boundries
+  attr_accessor :categories
+  attr_accessor :place_names
+  attr_accessor :human_names
+  attr_accessor :summary
+  attr_accessor :sentiment_rating
   
 end
