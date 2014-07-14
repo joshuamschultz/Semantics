@@ -18,4 +18,12 @@ class TextResource
   attr_accessor :summary
   attr_accessor :sentiment_rating
   
+  def initialize source_uri=''
+    @source_uri = source_uri
+    @title = ''
+    @headings_1 = []
+    @headings_2 = []
+    @headings_3 = []
+  end
+  
 end
