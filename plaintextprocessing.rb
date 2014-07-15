@@ -7,6 +7,7 @@ class PlainTextProcessing < TextResource
     file = open(source_uri)
     @plain_text = file.read
     #clean text
+    #process text
   end
   
 end
